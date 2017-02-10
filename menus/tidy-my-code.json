@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Tidy my code",
+        "command": "tidy-my-code:clean"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Tidy my code",
+          "submenu": [
+            {
+              "label": "Clean",
+              "command": "tidy-my-code:clean"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
